@@ -11,9 +11,12 @@
 		48E43EEC1C0CA42700698574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E43EEB1C0CA42700698574 /* main.m */; };
 		48E43EEE1C0CA42700698574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E43EED1C0CA42700698574 /* Assets.xcassets */; };
 		48E43EF11C0CA42700698574 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48E43EEF1C0CA42700698574 /* MainMenu.xib */; };
+		48E43EFA1C0CA45D00698574 /* SSYVectorImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E43EF91C0CA45D00698574 /* SSYVectorImages.m */; };
+		48E43EFD1C0CA6A200698574 /* NSImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E43EFC1C0CA6A200698574 /* NSImage+Transform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48B5955C1D5D2FAF001B0B9E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; wrapsLines = 1; };
 		48E43EE41C0CA42700698574 /* SSYVectorImageTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSYVectorImageTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E43EE71C0CA42700698574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48E43EE81C0CA42700698574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +24,10 @@
 		48E43EED1C0CA42700698574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E43EF01C0CA42700698574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		48E43EF21C0CA42700698574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E43EF81C0CA45D00698574 /* SSYVectorImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSYVectorImages.h; sourceTree = "<group>"; };
+		48E43EF91C0CA45D00698574 /* SSYVectorImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSYVectorImages.m; sourceTree = "<group>"; };
+		48E43EFB1C0CA6A200698574 /* NSImage+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Transform.h"; sourceTree = "<group>"; };
+		48E43EFC1C0CA6A200698574 /* NSImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Transform.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +44,7 @@
 		48E43EDB1C0CA42600698574 = {
 			isa = PBXGroup;
 			children = (
+				48B5955C1D5D2FAF001B0B9E /* README.md */,
 				48E43EE61C0CA42700698574 /* SSYVectorImageTester */,
 				48E43EE51C0CA42700698574 /* Products */,
 			);
@@ -53,6 +61,10 @@
 		48E43EE61C0CA42700698574 /* SSYVectorImageTester */ = {
 			isa = PBXGroup;
 			children = (
+				48E43EFB1C0CA6A200698574 /* NSImage+Transform.h */,
+				48E43EFC1C0CA6A200698574 /* NSImage+Transform.m */,
+				48E43EF81C0CA45D00698574 /* SSYVectorImages.h */,
+				48E43EF91C0CA45D00698574 /* SSYVectorImages.m */,
 				48E43EE71C0CA42700698574 /* AppDelegate.h */,
 				48E43EE81C0CA42700698574 /* AppDelegate.m */,
 				48E43EED1C0CA42700698574 /* Assets.xcassets */,
@@ -140,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E43EFA1C0CA45D00698574 /* SSYVectorImages.m in Sources */,
+				48E43EFD1C0CA6A200698574 /* NSImage+Transform.m in Sources */,
 				48E43EEC1C0CA42700698574 /* main.m in Sources */,
 				48E43EE91C0CA42700698574 /* AppDelegate.m in Sources */,
 			);
@@ -281,6 +295,7 @@
 				48E43EF71C0CA42700698574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
