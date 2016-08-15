@@ -6,6 +6,8 @@
 + (void)glyphOnPath:(NSBezierPath*)path
                name:(NSString*)glyphName
           halfWidth:(CGFloat)halfWidth {
+/**** THIS IS BAD CODE.  See UPDATE in README.md for more information.
+ For proper code, see https://github.com/jerrykrinock/ClassesObjC/blob/master/SSYVectorImages.m  */
 #if 0
     /* This will work in any macOS version 10.10 to 10.12. */
     NSFont* font = [NSFont fontWithName:@"Helvetica"
